@@ -14,7 +14,9 @@
     },
     "./styles": "./dist/styles.css"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "sideEffects": false,
   "scripts": {
     "dev": "tsx watch src/demo/server.ts",
@@ -39,7 +41,14 @@
     "tsup": "^8.0.0",
     "tsx": "^4.10.0"
   },
-  "keywords": ["react", "components", "ui", "headless", "typescript", "accessible"],
-  "author": "Shehryar Ali",
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "headless",
+    "typescript",
+    "accessible"
+  ],
+  "author": "Solaris Technologies",
   "license": "MIT"
 }
