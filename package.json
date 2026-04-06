@@ -52,7 +52,7 @@
     "accessible",
     "design-system"
   ],
-  "author": "Solaris Technologies",
+  "author": "Shai A",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
