@@ -3,19 +3,20 @@
   "version": "1.0.0",
   "description": "Production-ready headless React component library with TypeScript, accessibility, composable APIs, and CSS variable theming",
   "type": "module",
-  "main": "dist/index.cjs",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs",
       "types": "./dist/index.d.ts"
-    },
-    "./styles": "./dist/styles.css"
+    }
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "LICENSE"
   ],
   "sideEffects": false,
   "scripts": {
@@ -47,8 +48,18 @@
     "ui",
     "headless",
     "typescript",
-    "accessible"
+    "hooks",
+    "accessible",
+    "design-system"
   ],
   "author": "Solaris Technologies",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shaisolaris/react-component-library.git"
+  },
+  "homepage": "https://github.com/Shaisolaris/react-component-library#readme"
 }
