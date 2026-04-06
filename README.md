@@ -1,5 +1,15 @@
 # @solaris/ui — React Component Library
 
+
+## Quick Start
+
+```bash
+git clone https://github.com/Shaisolaris/react-component-library.git
+cd react-component-library
+npm install --legacy-peer-deps
+npx expo start
+```
+
 Production-ready, headless React component library with 15 composable components, 7 custom hooks, TypeScript-first APIs, full ARIA accessibility, and CSS class-based styling that works with any CSS framework.
 
 ## Stack
