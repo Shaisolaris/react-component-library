@@ -1,6 +1,9 @@
 # @solaris/ui — React Component Library
 
 
+
+Headless React component library with 15 accessible components and 7 hooks. TypeScript-first, tree-shakable, zero styling opinions. ESM + CJS dual build.
+
 ## Quick Start
 
 ```bash
